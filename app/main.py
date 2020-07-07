@@ -37,5 +37,3 @@ def get_card():
 @app.route('/account/balance', methods=['GET'])
 def get_account_balance():
     return "balance,"+str(nu.get_account_balance()).replace(".","")
-
-app.run()
