@@ -41,4 +41,4 @@ def get_card():
 
 @app.route('/account/balance', methods=['GET'])
 def get_account_balance():
-    return get_balance
+    return get_balance()
