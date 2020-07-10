@@ -1,5 +1,5 @@
 # certs
-*.p12
+#*.p12
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
